@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 412px;
+    margin: 0 auto;
+}
+
+header, section {
+    margin: 0 10px;
+}
+
+.user-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.avatar-logo {
+    width: 150px;
+}
+
+.avatar-user {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 11px;
+}
+.line {
+    padding-bottom: 11px;
+    border-bottom: 1px solid grey;
+}
+
+
+
+.header-section {
+    display: flex;
+    align-items: center;  
+}
+
+.header-section div {
+    margin-top: 10px;
+}
+.header-section h2,
+.header-section p {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.header-section h2 {
+    font-size: 17px;
+}
+.header-section p {
+    font-size: 13px;
+}
+
+.post-img {
+    margin-top: 13px;
+    width: 100%;
+}
+
+.section-icons {
+    margin-top: 16px;
+}
+
+.icon {
+    width: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.heart:active {
+    background: red;
+}
+
+span {
+    border: none;
+    background-color: none;
+}
+
+
+.likes {
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+
+.comments-section .user-comment {
+    font-weight: 700;
+}
+
+
+footer {
+    padding: 10px;
+    background-color: rgb(228, 222, 222);
+}
